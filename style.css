@@ -34,10 +34,8 @@ li {
 .header-list{
   color:white;
   float:right;
-  
 }
 .header-list  li{
-  float:left;
   margin:33px 20px;
   display:inline-block;
 }
@@ -56,20 +54,28 @@ li{
 .main span{
   color:#ff4a4a;
 }
+.main a{
+  background-color:#26d0c9;
+  padding:14px 24px;
+  border-radius:10px;
+  color:white;
+  text-decoration: none;
+}
+.main p{
+  font-size:30px;
+  font-weight:bold;
+}
+.btn-wrapper{
+  margin:34px 0;
+}
 .main{
-  margin-bottom: 20px;
+  padding-left:30px;
+  padding-bottom:24px;
+  margin-bottom:20px;
   background-image: url(delta.png);
   background-size: cover;
   color: #80A97E
 }
-
-
-
-
-
-
-
-
 
 main{
   margin-bottom: 20px;
@@ -80,27 +86,28 @@ h1, h3, p, div, body{
 }
 
 article{
-    margin: 0 auto 50px;
-    background-color:#F3F4FF;
+  margin: 0 auto 50px;
+  background-color:#F3F4FF;
 }
 .covid-adalah h2{
-    margin:0px 0 20px 20px;
-    padding-top:20px;
+  margin:0px 0 20px 20px;
+  padding-top:20px;
 }
 .pengertian{
-    display:flex;
+  display:flex;
 }
 .logo-covid{
-    margin:0 15px;
+  width:40%;
 }
 .logo-covid img{
-    width:250px;
+  width:100%;
+  border-radius:10px;
 }
 .covid{
-    width:60%;
-    
+  width:60%;
+  box-sizing:border-box;
+  margin-right:20px;
 }
-
 .covid-adalah{
   padding-bottom: 50px;
   border-bottom:1px solid #53545F;
