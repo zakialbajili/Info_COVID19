@@ -2,4 +2,30 @@
     .artikel-item {
         width:50%;
     }
+    .main h1{
+        font-size:50px;
+    }
+    .main h2{
+        font-size:32px;
+    }
+    .main p{
+        font-size:20px;
+    }
+}
+@media (max-width: 670px ){
+    .artikel-item {
+        width:50%;
+    }
+    .main h1{
+        font-size:32px;
+    }
+    .main h2{
+        font-size:24px;
+    }
+    .main p{
+        font-size:18px;
+    }
+    .li{
+        margin:33px 10px;
+    }
 }
