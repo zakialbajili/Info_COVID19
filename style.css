@@ -1,0 +1,202 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.h1{
+  font-size:36px;
+  margin:20px 40px;
+  color:white;
+  
+}
+.header{
+  background-color:#26d0c9 ;
+  color:white;
+  height:90px;
+}
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+ 
+}
+.header-list{
+  color:white;
+  float:right;
+  
+}
+.header-list  li{
+  float:left;
+  margin:33px 20px;
+  display:inline-block;
+}
+
+li{
+  list-style:none;
+}
+.main h1{
+  font-size:140px;
+  opacity: 100%;
+  
+}
+.main h2{
+  font-size:60px;
+}
+.main span{
+  color:#ff4a4a;
+}
+.main{
+  margin-bottom: 20px;
+  background-image: url(delta.png);
+  background-size: cover;
+  color: #80A97E
+}
+
+
+
+
+
+
+
+
+
+main{
+  margin-bottom: 20px;
+}
+h1, h3, p, div, body{
+    margin:0px;
+    padding:0px;
+}
+
+article{
+    margin: 0 auto 50px;
+    background-color:#F3F4FF;
+}
+.covid-adalah h2{
+    margin:0px 0 20px 20px;
+    padding-top:20px;
+}
+.pengertian{
+    display:flex;
+}
+.logo-covid{
+    margin:0 15px;
+}
+.logo-covid img{
+    width:250px;
+}
+.covid{
+    width:60%;
+    
+}
+
+.covid-adalah{
+  padding-bottom: 50px;
+  border-bottom:1px solid #53545F;
+}
+.covid p{
+    margin:0;
+    text-align:justify;
+    line-height:20px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    height:600px;
+    margin-top:20px;
+    border-radius:10px;
+    background-color:#F3F4FF;
+}
+.nampung{
+    display:flex;
+
+}
+.tulisan{
+    text-align:center;
+}
+.artikel-item{
+    display:inline-block;
+    text-align:center;
+    margin:20px 5px 20px;
+    width:25%;
+    border-radius:7px;
+    background-color:white;
+    box-sizing:border-box;
+    text-decoration: none;
+    color:black;
+}
+.text{
+    padding:0 5px;
+    margin-bottom:10px;
+}
+.satu{
+    margin-left:10px;
+}
+.empat{
+    margin-right:10px;
+}
+.logo-item{
+    margin-top:15px;
+    width:90%;
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #117C87B5;
+  color: floralwhite;
+  height: 200px;
+  margin-top: 20px
+}
+
+.footer_top{
+  padding: 40px;
+  height:100px;
+  margin-bottom: 0px;
+  text-align: center
+}
+
+.logo_footer{
+  margin: 20px;
+}
+.sub-bab {
+  list-style: none;
+}
+
+.sub-bab li {
+  color: white;
+  display:inline;
+  padding:15px;
+  border-right:1px solid #18B4C4B5;
+
+}
+
+.sub-bab li a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright{
+  border:1px solid #0B454BB5;
+  background-color: #0B454BB5;
+  font-size: 10px;
+  padding:5px;
+}
+
